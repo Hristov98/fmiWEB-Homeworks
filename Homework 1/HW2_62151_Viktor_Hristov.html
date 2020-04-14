@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WEB homework 2</title>
+		<meta charset="UTF-8">
+		<link href="HW2-css.css" rel="stylesheet"> 
+	</head>
+	<body>
+		<div class="background">
+			<div class="heading">
+				<p>Потребителски панел</p>
+			</div>
+			<div class="explanation">
+				<p>За да се запишете в курс създайте нов акаунт или влезте в съществуващ такъв.</p>
+			</div>
+
+			<div class="registration">
+				<p>РЕГИСТРАЦИЯ</p>
+				<form>
+					<input type="text" placeholder="Потребителско име" id="registrationUserName"/>
+					<input type="text" placeholder="E-mail" id="registrationEmail"/>
+					<input type="password" placeholder="Парола" id="registrationPass"/>
+					<input type="password" placeholder="Потвърди парола" id="registrationConfirmPass"/>
+					<input type="submit" value="Регистрирай се" id="registrationButton">
+				</form>
+			</div>
+
+			<div class="login">
+				<p>ВХОД</p>
+				<form>
+					<input type="text" placeholder="Потребителско име" id="loginUserName"/>
+					<input type="password" placeholder="Парола" id="loginPass"/>
+					<div class="formCheckBox">
+						<input type="checkbox" id="rememberLogin"> 
+						<span class="customCheckBox"></span>
+						<label for="rememberLogin">Запомняне?</label>
+					</div>
+					<input type="submit" value="Влез" id="loginButton">
+					<label id="forgottenPassword">Забравена парола</label>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
