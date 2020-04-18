@@ -21,7 +21,6 @@
 
 .explanation
 {
-    color: #34495E;
     font-size: 13px;
     padding-left: 20px;
 }
@@ -171,7 +170,7 @@
     border-style: solid;
     display: inline-block;
     width: 105px;
-    height: 20px;
+    height: 25px;
     background-color:#34495E;
     color: #ECECEC;
     font-weight: bold;
